@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint src/**"
+    "lint": "eslint src/**",
+    "lintfix": "eslint src/** --fix"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/temelm/training-eslint#readme",
   "devDependencies": {
-    "eslint": "^5.9.0"
+    "eslint": "^5.9.0",
+    "husky": "^1.2.0"
   }
 }
