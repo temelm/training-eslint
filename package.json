@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint src/**",
-    "lintfix": "eslint src/** --fix"
+    "lint": "eslint src/**/*.js",
+    "lintfix": "eslint src/**/*.js --fix"
   },
   "repository": {
     "type": "git",
