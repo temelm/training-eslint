@@ -1,0 +1,23 @@
+{
+    "env": {
+        "browser": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+        "ecmaVersion": 5
+    },
+    "rules": {
+        "indent": ["error", 2],
+        "linebreak-style": ["error", "unix"],
+        "quotes": [ "error", "single"],
+        "semi": ["error", "never"],
+        "no-alert": ["error"],
+        "no-eval": ["error"],
+        "brace-style": ["error", "1tbs", {"allowSingleLine": false}],
+        "camelcase": ["error", {"properties": "always"}]
+    },
+    "globals": {
+        "a": false,
+        "b": false
+    }
+}

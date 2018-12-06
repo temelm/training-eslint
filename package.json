@@ -1,0 +1,22 @@
+{
+  "name": "training-eslint",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint src/**"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/temelm/training-eslint.git"
+  },
+  "author": "Mustafa Temel <mustafatemel90@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/temelm/training-eslint/issues"
+  },
+  "homepage": "https://github.com/temelm/training-eslint#readme",
+  "devDependencies": {
+    "eslint": "^5.9.0"
+  }
+}
