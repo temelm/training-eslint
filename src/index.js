@@ -1,5 +1,5 @@
 function Person (name) {
-  this.name = name;
+  this.name = name
   this.goodnight = function () {
     return ['Goodnight', this.name].join(' ')
   }
